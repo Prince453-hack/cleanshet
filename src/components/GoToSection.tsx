@@ -8,7 +8,7 @@ const SkillsComponent: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2">
           <div className="p-8">
             <h1 className="text-4xl font-bold text-gray-900 mb-8">
-              Cleanshet's Revolutionary Hygiene Solutions
+              Cleanshet&apos;s Revolutionary Hygiene Solutions
             </h1>
             <ul className="space-y-4">
               <li className="flex items-center">
