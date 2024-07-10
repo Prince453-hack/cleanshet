@@ -7,8 +7,7 @@ import "aos/dist/aos.css";
 const StatItem: React.FC<{
   percentage: string;
   text: string;
-  icon: React.ReactNode;
-}> = ({ percentage, text, icon }) => (
+}> = ({ percentage, text }) => (
   <div className="flex flex-col items-center w-full" data-aos="flip-up">
     <div className="relative w-full aspect-square max-w-[240px]">
       <svg
@@ -29,7 +28,9 @@ const StatItem: React.FC<{
         />
       </svg>
       <div className="absolute inset-0 flex flex-col items-center justify-center p-6">
-        <p className="text-white text-2xl font-bold">{percentage}</p>
+        <p className="text-white text-center text-xl mb-4 font-bold">
+          {percentage}
+        </p>
         <p className="text-white font-normal text-center text-sm">{text}</p>
       </div>
     </div>
@@ -55,34 +56,28 @@ const Mission: React.FC = () => {
       />
       <div className="relative w-full max-w-screen-xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-12 py-6">
         <StatItem
-          percentage="90%"
-          text="Students refrain from going to the washroom because the facilities are outright disgusting."
-          icon={<GraduationCap size={32} />}
+          percentage="Natural Materials"
+          text="Our eco-friendly seat covers are crafted from sustainable, all-natural materials."
         />
         <StatItem
-          percentage="91%"
-          text="People avoid using public washrooms in high traffic areas (clubs, bars, restaurants)"
-          icon={<Users size={32} />}
+          percentage="Water resistant"
+          text="Stay dry and clean with water-resistant seat covers that guard against spills and splashes."
         />
         <StatItem
-          percentage="20%"
-          text="Employees shun workplace washrooms"
-          icon={<BriefcaseBusiness size={32} />}
+          percentage="Sustainable"
+          text="Embrace a cleaner and safer bathroom experience with our flushable seat covers"
         />
         <StatItem
-          percentage="20%"
-          text="Employees shun workplace washrooms"
-          icon={<BriefcaseBusiness size={32} />}
+          percentage="Protective 3 Layers"
+          text="Enjoy enhanced comfort and protection with three layers of defense."
         />
         <StatItem
-          percentage="20%"
-          text="Employees shun workplace washrooms"
-          icon={<BriefcaseBusiness size={32} />}
+          percentage="Flushable & Disposable"
+          text="Flushable & Disposable: Easily flush our seat covers after use for quick and convenient disposal."
         />
         <StatItem
-          percentage="20%"
-          text="Employees shun workplace washrooms"
-          icon={<BriefcaseBusiness size={32} />}
+          percentage="Flexible Usage Anywhere"
+          text="Experience the freedom of flexible usage anywhere - Your hygienic companion on the go."
         />
       </div>
     </div>
