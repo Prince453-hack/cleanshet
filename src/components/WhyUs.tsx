@@ -30,15 +30,16 @@ const MissionStatement: React.FC = () => {
             alt="Logo"
             className="mx-auto"
           />
-          <p className="mt-2 text-xl font-semibold max-w-md">
+          <p className="mt-2 text-xl font-semibold max-w-md text-[#B52F73]">
             Redefining Restroom Solutions
           </p>
         </div>
         <div className="text-center max-w-xl" data-aos="fade-left">
-          <h2 className="text-4xl font-bold">Our Mission</h2>
+          <h2 className="text-4xl font-bold">About Us</h2>
           <p className="mt-4 text-lg">
-            We envision a future of Zero waste intimate paper products.
-            Committing to minimize the impact of our shits to the world.
+            CleanShet&apos;s aims to improve public washroom hygiene for both
+            men and women, enhancing overall well-being and future
+            opportunities.
           </p>
         </div>
       </div>

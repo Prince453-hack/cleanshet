@@ -13,7 +13,9 @@ const StatItem: React.FC<{
     className="flex flex-col items-center max-w-[280px] w-full"
     data-aos="fade-up"
   >
-    <div className="relative w-full aspect-square max-w-[240px]">
+    <div className="relative w-full aspect-square max-w-[200px]">
+      {" "}
+      {/* Decreased max-width */}
       <svg
         viewBox="0 0 100 100"
         className="absolute inset-0 w-full h-full"
@@ -21,7 +23,7 @@ const StatItem: React.FC<{
       >
         <defs>
           <clipPath id="customClipPath">
-            <path d="M 10 10 C 20 0, 80 0, 90 10 C 100 20, 100 80, 90 90 C 80 100, 20 100, 10 90 C 0 80, 0 20, 10 10" />
+            <path d="M 15 15 C 25 5, 75 5, 85 15 C 95 25, 95 75, 85 85 C 75 95, 25 95, 15 85 C 5 75, 5 25, 15 15" />
           </clipPath>
         </defs>
         <rect
@@ -32,11 +34,9 @@ const StatItem: React.FC<{
         />
       </svg>
       <div className="absolute inset-0 flex items-center justify-center">
-        <p className="text-white text-5xl md:text-6xl font-bold">
-          {percentage}
-        </p>
+        <p className="text-white text-4xl font-semibold"> {percentage}</p>
       </div>
-      <div className="absolute top-0 right-0 w-1/4 aspect-square -translate-y-[10%] translate-x-[10%]">
+      <div className="absolute top-3 right-2 w-1/4 aspect-square -translate-y-[10%] translate-x-[10%]">
         <svg
           viewBox="0 0 100 100"
           className="absolute inset-0 w-full h-full"
@@ -54,7 +54,7 @@ const StatItem: React.FC<{
         </div>
       </div>
     </div>
-    <p className="mt-6 text-center text-md font-semibold">{text}</p>
+    <p className="mt-1 text-center text-md font-semibold">{text}</p>
   </div>
 );
 
@@ -66,7 +66,7 @@ const ProblemSub: React.FC = () => {
   return (
     <div className="relative w-full overflow-hidden">
       <div
-        className="absolute top-36 left-1/2 right-1/2 h-96 w-[200%] bg-white"
+        className="absolute top-36 left-1/2 right-1/2 h-96 w-[200%] bg-zinc-200"
         style={{
           borderRadius: "50% 50% 0 0 / 100% 100% 0 0",
           transform: "translateX(-50%)",
@@ -76,17 +76,17 @@ const ProblemSub: React.FC = () => {
         <StatItem
           percentage="90%"
           text="Students refrain from going to the washroom because the facilities are outright disgusting."
-          icon={<GraduationCap size={32} />}
+          icon={<GraduationCap size={30} />}
         />
         <StatItem
           percentage="91%"
           text="People avoid using public washrooms in high traffic areas (clubs, bars, restaurants)"
-          icon={<Users size={32} />}
+          icon={<Users size={30} />}
         />
         <StatItem
           percentage="20%"
           text="Employees shun workplace washrooms"
-          icon={<BriefcaseBusiness size={32} />}
+          icon={<BriefcaseBusiness size={30} />}
         />
       </div>
     </div>

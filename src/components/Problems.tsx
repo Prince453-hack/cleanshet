@@ -9,8 +9,8 @@ const Problems = () => {
     AOS.init({ duration: 1000 });
   }, []);
   return (
-    <div className="bg-[rgba(214,197,255,0.38)] pt-8 sm:mt-[-1px] mb-[-30px]">
-      <div className="relative text-4xl font-bold text-white text-center pb-4 mt-5 mb-1">
+    <div className="pt-8 sm:mt-[-1px] mb-[-30px]">
+      <div className="relative text-5xl font-bold text-white text-center pb-4 mt-5 mb-1">
         <span className="text-[#331846]">Know the </span>
         <span className="relative text-[#e8557f] inline-block underline underline-offset-4">
           Hidden{" "}

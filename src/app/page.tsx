@@ -33,7 +33,7 @@ export default function Home() {
       <HeroSection />
       <Problems />
       <Facts />
-      <Solution />
+      {/* <Solution /> */}
       <WhyUs />
       <Missions />
       {/* <OurMission /> */}

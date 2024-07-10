@@ -69,7 +69,7 @@ const HeroType: React.FC = () => {
   return (
     <div className="flex flex-col lg:flex-row items-center justify-center">
       <div className="text-3xl md:text-5xl lg:text-7xl font-bold mt-16 p-4 md:p-8 lg:p-24 max-w-xs md:max-w-3xl lg:max-w-5xl text-center lg:text-left">
-        <span className="text-[#331846]">
+        <span className="text-[#543d6d]">
           Transforming Public Restrooms with <br />
         </span>
         <span className="text-[#e8557f]">{displayedText}</span>
@@ -77,7 +77,7 @@ const HeroType: React.FC = () => {
           {" "}
           <br />
         </span>
-        <span className="text-[#331846]">solution</span>
+        <span className="text-[#543d6d]">solution</span>
       </div>
 
       <div className="relative w-full max-w-5xl mt-4 sm:mt-16">
@@ -98,7 +98,7 @@ const HeroType: React.FC = () => {
             return (
               <div
                 key={index}
-                className="absolute flex flex-col items-center justify-center w-24 h-24 p-4 bg-primary rounded-full shadow-lg transform bg-[#331846] animate-bounceUpDown"
+                className="absolute flex flex-col items-center justify-center w-24 h-24 p-4 rounded-full shadow-lg transform bg-[#331846] animate-bounceUpDown"
                 style={{
                   left: `calc(50% + ${x}px - 3rem)`,
                   top: `calc(50% + ${y}px - 3rem)`,

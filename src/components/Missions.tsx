@@ -1,4 +1,3 @@
-import { BriefcaseBusiness, GraduationCap, Users } from "lucide-react";
 import React, { useEffect } from "react";
 //@ts-expect-error
 import AOS from "aos";
@@ -9,7 +8,7 @@ const StatItem: React.FC<{
   text: string;
 }> = ({ percentage, text }) => (
   <div className="flex flex-col items-center w-full" data-aos="flip-up">
-    <div className="relative w-full aspect-square max-w-[240px]">
+    <div className="relative w-full aspect-square max-w-[310px]">
       <svg
         viewBox="0 0 100 100"
         className="absolute inset-0 w-full h-full"
@@ -17,18 +16,18 @@ const StatItem: React.FC<{
       >
         <defs>
           <clipPath id="customClipPath">
-            <path d="M 10 10 C 20 0, 80 0, 90 10 C 100 20, 100 80, 90 90 C 80 100, 20 100, 10 90 C 0 80, 0 20, 10 10" />
+            <path d="M 5 5 C 15 -5, 85 -5, 95 5 C 105 15, 105 85, 95 95 C 85 105, 15 105, 5 95 C -5 85, -5 15, 5 5" />
           </clipPath>
         </defs>
         <rect
           width="100"
           height="100"
           clipPath="url(#customClipPath)"
-          fill="#d63384"
+          fill="#331846"
         />
       </svg>
-      <div className="absolute inset-0 flex flex-col items-center justify-center p-6">
-        <p className="text-white text-center text-xl mb-4 font-bold">
+      <div className="absolute inset-0 flex flex-col items-center justify-center p-8">
+        <p className="text-[#B52F73] text-center text-xl mb-4 font-bold">
           {percentage}
         </p>
         <p className="text-white font-normal text-center text-sm">{text}</p>
