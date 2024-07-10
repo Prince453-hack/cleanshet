@@ -44,7 +44,7 @@ const Mission: React.FC = () => {
 
   return (
     <div className="relative w-full overflow-hidden px-4 md:px-8 lg:px-16 mb-10">
-      <div className="text-center font-semibold my-10 text-3xl md:text-5xl">
+      <div className="text-center font-bold my-10 text-3xl md:text-5xl">
         Why CleanShet ?
       </div>
       <div
