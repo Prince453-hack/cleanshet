@@ -1,7 +1,14 @@
 import { Activity, Droplets, Leaf } from "lucide-react";
-import React from "react";
+import React, { useEffect } from "react";
+//@ts-expect-error
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Solution: React.FC = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
+
   return (
     <div className="px-16 py-24 z-[-2] bg-white bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,#d633848b,rgba(255,255,255,0))]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-14">
@@ -31,7 +38,7 @@ const Solution: React.FC = () => {
             </svg>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 relative z-10">
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center" data-aos="fade-up">
               <div className="relative p-8 w-16 h-16">
                 <svg
                   viewBox="0 0 100 100"
@@ -71,7 +78,11 @@ const Solution: React.FC = () => {
                 zero-waste future.
               </p>
             </div>
-            <div className="flex flex-col items-center">
+            <div
+              className="flex flex-col items-center"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
               <div className="relative p-8 w-16 h-16">
                 <svg
                   viewBox="0 0 100 100"
@@ -105,7 +116,6 @@ const Solution: React.FC = () => {
                   </foreignObject>
                 </svg>
               </div>
-
               <h3 className="mt-4 text-lg leading-6 font-medium text-gray-900">
                 Hygiene Innovation
               </h3>
@@ -114,7 +124,11 @@ const Solution: React.FC = () => {
                 ensuring a pristine, germ-free experience and maximum comfort.
               </p>
             </div>
-            <div className="flex flex-col items-center">
+            <div
+              className="flex flex-col items-center"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
               <div className="relative p-8 w-16 h-16">
                 <svg
                   viewBox="0 0 100 100"

@@ -68,8 +68,8 @@ const HeroType: React.FC = () => {
 
   return (
     <div className="flex flex-col lg:flex-row items-center justify-center">
-      <div className="text-3xl md:text-5xl lg:text-7xl font-bold mt-16 p-4 md:p-8 lg:p-14 max-w-xs md:max-w-3xl lg:max-w-5xl text-center lg:text-left">
-        <span>
+      <div className="text-3xl md:text-5xl lg:text-7xl font-bold mt-16 p-4 md:p-8 lg:p-24 max-w-xs md:max-w-3xl lg:max-w-5xl text-center lg:text-left">
+        <span className="text-[#331846]">
           Transforming Public Restrooms with <br />
         </span>
         <span className="text-[#e8557f]">{displayedText}</span>
@@ -77,16 +77,16 @@ const HeroType: React.FC = () => {
           {" "}
           <br />
         </span>
-        <span>solution</span>
+        <span className="text-[#331846]">solution</span>
       </div>
 
       <div className="relative w-full max-w-5xl mt-4 sm:mt-16">
         <div className="relative flex items-center justify-center w-full h-96 md:h-[600px]">
-          <div className="absolute flex items-center justify-center w-24 h-24 bg-[#171d26] rounded-full shadow-lg">
+          <div className="p-1 absolute flex items-center justify-center w-36 h-36 bg-[#b52f73] rounded-full shadow-lg">
             <img
-              src="/nav-mob-logo.png"
+              src="/nav-logo.png"
               alt="Center Logo"
-              className="w-12 h-12 animate-pulse"
+              className="w-32 h-7 animate-pulse"
             />
           </div>
 
@@ -98,7 +98,7 @@ const HeroType: React.FC = () => {
             return (
               <div
                 key={index}
-                className="absolute flex flex-col items-center justify-center w-24 h-24 p-4 bg-primary rounded-full shadow-lg transform bg-[#533164] animate-bounceUpDown"
+                className="absolute flex flex-col items-center justify-center w-24 h-24 p-4 bg-primary rounded-full shadow-lg transform bg-[#331846] animate-bounceUpDown"
                 style={{
                   left: `calc(50% + ${x}px - 3rem)`,
                   top: `calc(50% + ${y}px - 3rem)`,
