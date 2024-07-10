@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 
 const Problems = () => {
   useEffect(() => {
-    AOS.init({ duration: 2000 });
+    AOS.init({ duration: 1000 });
   }, []);
   return (
     <div className="bg-[rgba(214,197,255,0.38)] pt-8 sm:mt-[-1px] mb-[-30px]">

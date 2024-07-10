@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 
 const MissionStatement: React.FC = () => {
   useEffect(() => {
-    AOS.init({ duration: 2000 });
+    AOS.init({ duration: 1000 });
   }, []);
 
   return (
