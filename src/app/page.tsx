@@ -7,7 +7,7 @@ import HeroSection from "@/components/HeroSection";
 import { Loading } from "@/components/Loading";
 import Missions from "@/components/Missions";
 import Navbar from "@/components/Navbar";
-import { OurMission } from "@/components/OurMission";
+import OurMission from "@/components/OurMission";
 import Problems from "@/components/Problems";
 import SecureSection from "@/components/SecureSection";
 import Solution from "@/components/Solution";
@@ -35,8 +35,8 @@ export default function Home() {
       <Facts />
       {/* <Solution /> */}
       <WhyUs />
+      <OurMission />
       <Missions />
-      {/* <OurMission /> */}
       {/* <SecureSection /> */}
       <Footer />
     </div>

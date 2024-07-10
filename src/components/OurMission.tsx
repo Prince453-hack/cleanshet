@@ -1,19 +1,17 @@
-"use client";
-
 import React from "react";
-import { motion } from "framer-motion";
-import { LampContainer } from "./Lamp";
-import MissionSub from "./MissionSub";
 
-export function OurMission() {
+const OurMission = () => {
   return (
-    <>
-      <LampContainer className="pt-[16rem]">
-        <motion.h1 className="mt-60 bg-gradient-to-br from-slate-300 to-slate-500 text-white py-1 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-5xl">
-          Our Mission
-        </motion.h1>
-        <MissionSub />
-      </LampContainer>
-    </>
+    <div className="my-16">
+      <h1 className="text-center font-bold text-5xl text-[#331846]">
+        Our Mission
+      </h1>
+      <p className="text-4xl my-10 max-w-5xl mx-auto text-center font-semibold border-2 border-[#331846] rounded-3xl py-6 px-5">
+        "We envision a future of Zero waste intimate paper products. Committing
+        to minimize the impact of our shifts to the world"
+      </p>
+    </div>
   );
-}
+};
+
+export default OurMission;
