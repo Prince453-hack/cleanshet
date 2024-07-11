@@ -1,5 +1,6 @@
 "use client";
 
+import ContactUs from "@/components/ContactUs";
 import Facts from "@/components/Facts";
 import Footer from "@/components/Footer";
 import GoToSection from "@/components/GoToSection";
@@ -38,6 +39,7 @@ export default function Home() {
       <OurMission />
       <Missions />
       {/* <SecureSection /> */}
+      <ContactUs />
       <Footer />
     </div>
   );

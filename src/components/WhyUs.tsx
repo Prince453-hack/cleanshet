@@ -13,7 +13,7 @@ const WhyUs: React.FC = () => {
     <div className="flex flex-col items-center justify-center bg-purple-100 p-10">
       <div className="flex flex-col lg:flex-row p-4 items-center lg:items-start">
         <div
-          className="flex-shrink-0 lg:ml-36 bg-purple-900 h-auto lg:h-[20rem] text-white p-6 shadow-md rounded-lg w-full lg:w-auto"
+          className="flex-shrink-0 lg:ml-32 bg-purple-900 h-auto lg:h-[20rem] text-white p-6 shadow-md rounded-lg w-full lg:w-auto"
           data-aos="fade-right"
         >
           <div className="text-lg font-bold mx-auto">
