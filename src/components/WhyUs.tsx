@@ -10,22 +10,22 @@ const WhyUs: React.FC = () => {
   }, []);
 
   return (
-    <div className="flex flex-col items-center justify-center bg-purple-100 p-10">
-      <div className="flex flex-col lg:flex-row p-4 items-center lg:items-start">
+    <div className="flex flex-col items-center justify-center bg-purple-100 p-16">
+      <div className="flex flex-col lg:flex-row p-4 gap-10 items-center lg:items-start">
         <div
           className="flex-shrink-0 lg:ml-32 bg-purple-900 h-auto lg:h-[20rem] text-white p-6 shadow-md rounded-lg w-full lg:w-auto"
           data-aos="fade-right"
         >
-          <div className="text-lg font-bold mx-auto">
+          <div className="text-lg font-bold my-10">
             <Image
-              src="/logo.png"
+              src="/nav-logo.png"
               width={300}
               height={300}
               alt="CleanShet"
-              className="mx-auto"
+              className=""
             />
           </div>
-          <div className="mt-4 text-2xl lg:text-4xl max-w-sm text-center font-bold text-pink-400">
+          <div className="mt-4 text-2xl lg:text-4xl max-w-sm text-left font-bold text-pink-400">
             Redefining Restroom Solutions
           </div>
         </div>
@@ -33,10 +33,10 @@ const WhyUs: React.FC = () => {
           className="mt-8 lg:mt-0 lg:ml-8 text-center lg:text-left"
           data-aos="fade-left"
         >
-          <h2 className="text-3xl lg:text-5xl font-bold mb-4 text-[#331846] text-center mt-10">
+          <h2 className="text-3xl lg:text-5xl font-bold mb-4 text-[#331846] text-left mt-10">
             About Us
           </h2>
-          <p className="text-xl lg:text-2xl font-semibold max-w-xl mt-4 lg:mt-10">
+          <p className="text-xl lg:text-2xl font-semibold max-w-lg mt-4 lg:mt-10">
             Cleanshet aims to improve public washroom hygiene for both men and
             women, enhancing overall well-being and future opportunities.
           </p>

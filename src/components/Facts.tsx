@@ -36,7 +36,7 @@ const UTIStatistics: React.FC = () => {
           </div>
         </div>
         <div
-          className="flex p-2 mt-8 md:mt-24 items-start justify-start w-40 h-40 md:w-52 md:h-52 shadow-md border-2 border-[#331846] text-black rounded-lg animate-bounceUpDown"
+          className="flex p-2 items-start justify-start w-40 h-40 md:w-52 md:h-52 shadow-md border-2 border-[#331846] text-black rounded-lg animate-bounceUpDown"
           data-aos="fade-up"
           data-aos-delay="200"
         >

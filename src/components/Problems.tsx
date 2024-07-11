@@ -10,26 +10,10 @@ const Problems = () => {
   }, []);
   return (
     <div className="pt-8 sm:mt-[-1px] mb-[-30px]">
-      <div className="relative text-5xl font-bold text-white text-center pb-4 mt-5 mb-1">
+      <div className="relative text-5xl font-bold mx-auto text-white max-w-2xl text-center pb-4 mt-5 mb-1">
         <span className="text-[#331846]">Know the </span>
         <span className="relative text-[#B52F73] inline-block underline underline-offset-4">
           Hidden{" "}
-          {/* <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 200 20"
-            className="absolute bottom-0 left-0 w-full h-full"
-            preserveAspectRatio="none"
-          >
-            <ellipse
-              cx="100"
-              cy="10"
-              rx="100"
-              ry="10"
-              fill="none"
-              stroke="#331846"
-              strokeWidth=""
-            />
-          </svg> */}
         </span>{" "}
         <span className="text-[#331846]" data-aos="fade-up">
           {" "}
