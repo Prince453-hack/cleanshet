@@ -27,7 +27,7 @@ const StatItem: React.FC<{
         />
       </svg>
       <div className="absolute inset-0 flex flex-col items-center justify-center p-8">
-        <p className="text-[#B52F73] text-center text-xl mb-4 font-bold">
+        <p className="text-[#cc5691] text-center text-xl mb-4 font-bold">
           {percentage}
         </p>
         <p className="text-white font-normal text-center text-sm">{text}</p>
@@ -44,7 +44,10 @@ const Mission: React.FC = () => {
   return (
     <div className="relative w-full overflow-hidden px-4 md:px-8 lg:px-16 mb-10">
       <div className="text-center font-bold my-10 text-3xl md:text-5xl">
-        Why CleanShet ?
+        Why{" "}
+        <span className="text-[#B52F73] underline underline-offset-8">
+          CleanShet?
+        </span>
       </div>
       <div
         className="absolute top-36 left-1/2 right-1/2 h-96 w-[200%] bg-white"

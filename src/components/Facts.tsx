@@ -11,7 +11,7 @@ const UTIStatistics: React.FC = () => {
   return (
     <div className="flex flex-col md:flex-row items-center justify-center gap-8 px-4 md:px-14 py-8 md:py-14 my-16">
       <div
-        className="text-center font-semibold text-xl md:text-4xl max-w-md"
+        className="text-center font-semibold text-xl md:text-5xl max-w-lg"
         data-aos="fade-up"
       >
         <h1>

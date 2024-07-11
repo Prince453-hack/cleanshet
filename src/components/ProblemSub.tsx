@@ -66,7 +66,7 @@ const ProblemSub: React.FC = () => {
   return (
     <div className="relative w-full overflow-hidden">
       <div
-        className="absolute top-36 left-1/2 right-1/2 h-96 w-[200%] bg-zinc-200"
+        className="absolute top-36 left-1/2 right-1/2 h-96 w-[200%] bg-[#d6c5ffb2]"
         style={{
           borderRadius: "50% 50% 0 0 / 100% 100% 0 0",
           transform: "translateX(-50%)",
